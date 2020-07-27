@@ -1,0 +1,57 @@
+.footer{
+	padding-top: 50px;
+}
+
+#footer-container{
+	border: 1px solid gray;
+}
+
+.footer-high{
+	border-right: 1px solid gray;
+}
+
+#frow1{
+	border-bottom: 1px solid gray;
+}
+
+.link-group{
+	border-right: 1px solid gray;
+}
+
+#contact{
+	margin-left: 65px;
+	margin-top: 5px;
+}
+
+#live{
+	margin-left: 75px;
+	margin-top: 5px;
+}
+
+#shipping{
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+#term{
+	margin-left: 23px;
+	margin-top: 5px;
+}
+
+#logos{
+	display: flex;
+	margin-top: 15px;
+}
+
+#find{
+	color: red;
+}
+
+.logo{
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+#cateory{
+	background-color: gray;
+}
