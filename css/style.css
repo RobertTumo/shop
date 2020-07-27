@@ -55,3 +55,7 @@
 #cateory{
 	background-color: gray;
 }
+
+.card{
+	display: flex;
+}
