@@ -12,7 +12,7 @@
 
     <title>SkyStore Settings</title>
   </head>
-  <body>
+  <body id="setbody">
     <header>
       <div class="container">
         <div class="row d-flex align-items-center justify-content-around mt-1">
@@ -34,14 +34,14 @@
           </div>
           <div class="d-none col-lg-2 d-lg-block">
             <button type="button" class="btn btn-info">
-                Wishlist <span class="badge badge-light">1</span>
+                Wishlist <span class="badge badge-light">0</span>
             </button>
           </div>
         </div>
 
         <div class="row navbar bg-dark">
           <div>
-            <img src="https://res.cloudinary.com/dafgll12r/image/upload/v1595592299/1200px-Sky_Master_Brand_Logo_2020_azathx.png" width="50px">
+            <a href="index.html"><img src="https://res.cloudinary.com/dafgll12r/image/upload/v1595592299/1200px-Sky_Master_Brand_Logo_2020_azathx.png" width="50px"></a>
           </div>
           <div class="d-none d-sm-block form-inline my-2 my-lg-0">
             <form>
@@ -59,7 +59,9 @@
                 <button type="button" class="btn dropdown-item" data-toggle="modal" data-target="#signup">
                   Sign Up</button>
                 <button type="button" class="btn dropdown-item" data-toggle="modal" data-target="#">
-                  <a href="settings.html"></a>Account Settings</button>
+                  <a id="cart" href="cart.html">My Cart</a></button>
+                <button type="button" class="btn dropdown-item" data-toggle="modal" data-target="#">
+                  <a id="sett" href="settings.html">My Account</a></button>
               </div>
           </div>  
         </div>
@@ -75,9 +77,9 @@
                   Gaming
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Consoles</a>
-                  <a class="dropdown-item" href="#">Keyboards</a>
-                  <a class="dropdown-item" href="#">Mouses</a>
+                  <a class="dropdown-item" href="shop.html">Consoles</a>
+                  <a class="dropdown-item" href="shop.html">Keyboards</a>
+                  <a class="dropdown-item" href="shop.html">Mouses</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -85,9 +87,9 @@
                   Clothes
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Gucci</a>
-                  <a class="dropdown-item" href="#">Shanell</a>
-                  <a class="dropdown-item" href="#">Louis Vuitton</a>
+                  <a class="dropdown-item" href="shop.html">Gucci</a>
+                  <a class="dropdown-item" href="shop.html">Shanell</a>
+                  <a class="dropdown-item" href="shop.html">Louis Vuitton</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -95,11 +97,11 @@
                   Cars
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">BMW</a>
-                  <a class="dropdown-item" href="#">Mercedes</a>
-                  <a class="dropdown-item" href="#">Audi</a>
-                  <a class="dropdown-item" href="#">Volkswagen</a>
-                  <a class="dropdown-item" href="#">Chevrolet</a>
+                  <a class="dropdown-item" href="shop.html">BMW</a>
+                  <a class="dropdown-item" href="shop.html">Mercedes</a>
+                  <a class="dropdown-item" href="shop.html">Audi</a>
+                  <a class="dropdown-item" href="shop.html">Volkswagen</a>
+                  <a class="dropdown-item" href="shop.html">Chevrolet</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -107,11 +109,11 @@
                   Phones
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">iPhone</a>
-                  <a class="dropdown-item" href="#">Samsung</a>
-                  <a class="dropdown-item" href="#">Huawei</a>
-                  <a class="dropdown-item" href="#">Xiaomi</a>
-                  <a class="dropdown-item" href="#">HTC</a>
+                  <a class="dropdown-item" href="shop.html">iPhone</a>
+                  <a class="dropdown-item" href="shop.html">Samsung</a>
+                  <a class="dropdown-item" href="shop.html">Huawei</a>
+                  <a class="dropdown-item" href="shop.html">Xiaomi</a>
+                  <a class="dropdown-item" href="shop.html">HTC</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -119,10 +121,10 @@
                   PC Components
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Processors</a>
-                  <a class="dropdown-item" href="#">VideoCards</a>
-                  <a class="dropdown-item" href="#">Matherboards</a>
-                  <a class="dropdown-item" href="#">Monitores</a>
+                  <a class="dropdown-item" href="shop.html">Processors</a>
+                  <a class="dropdown-item" href="shop.html">VideoCards</a>
+                  <a class="dropdown-item" href="shop.html">Matherboards</a>
+                  <a class="dropdown-item" href="shop.html">Monitores</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -130,9 +132,9 @@
                 Toys
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Logical Toys</a>
-                  <a class="dropdown-item" href="#">Plush Toys</a>
-                  <a class="dropdown-item" href="#">For Kids</a>
+                  <a class="dropdown-item" href="shop.html">Logical Toys</a>
+                  <a class="dropdown-item" href="shop.html">Plush Toys</a>
+                  <a class="dropdown-item" href="shop.html">For Kids</a>
                 </div>
               </div>
             </div>
@@ -143,14 +145,131 @@
 
     <main>
       <div class="container">
-        <div class="row">
-          
+        <div id="name" class="row">
+          <h5 class="ml-2 mb-2 mt-1">Robert Abrahamyan</h5>
         </div>
-      </div>
+        <div id="myacc" class="row">
+          <button class="btn btn-success ml-2 mb-2 mt-2">
+            My Account
+          </button>
+          <button class="btn btn-success ml-2 mb-2 mt-2">
+            <a id="info" href="info.html">My Info</a>
+          </button>
+        </div>
+        <div class="row d-flex mt-3">
+          <div class="bg-light">
+            <h5 id="ord" class="">My Orders</h5>
+            <div class="d-flex mt-4">
+              <p id="ornum">Order #</p>
+              <p id="ordate">Order Date</p>
+              <p id="ortotal">Total</p>
+            </div>
+            <div class="d-flex">
+              <a class="ml-2" href="#">DS67W9S5</a>
+              <p class="ml-4">13/06/2020</p>
+              <p class="ml-4 mr-2">$6.99</p>
+            </div>
+            <div class="d-flex">
+              <a class="ml-2" href="#">DS67W9S5</a>
+              <p class="ml-4">13/06/2020</p>
+              <p class="ml-4 mr-2">$6.99</p>
+            </div>
+            <div class="d-flex">
+              <a class="ml-2" href="#">DS67W9S5</a>
+              <p class="ml-4">13/06/2020</p>
+              <p class="ml-4 mr-2">$6.99</p>
+            </div>
+            <button id="allbut" class="btn btn-info">
+              See All
+            </button>
+          </div>
+          <div class="bg-light ml-3" style="width: 261.11px;">
+            <h5 id="wish">Wish List</h5>
+            <div>
+              <p class="ml-5 mt-5">Your Wish List Is Empty</p>
+            </div>
+          </div>
+          <div class="bg-light ml-3" style="width: 261.11px;">
+            <h5 id="disc">Discussions</h5>
+            <div>
+              <p id="activ">No Activity Yet</p>
+            </div>
+          </div>
+          <div class="bg-light ml-3" style="width: 261.11px;">
+            <h5 id="act">Saved Articles</h5>
+            <div>
+              <p id="art">No Saved Articles</p>
+            </div>
+          </div>
+        </div>
+        <div id="recently" class="row mt-3">
+          <div class="bg-light">
+            <h5 id="recent">Recent Activity</h5>
+            <div>
+              <h5 class="ml-4">My Recently Viewed</h5>
+            </div>
+            <div class="d-flex mt-4">
+              <div class="col-12 col-lg-6 ml-1 d-flex">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+              <div class="col-12 col-lg-6 ml-5 mr-5">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-6 ml-1">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+              <div class="col-6 ml-5 mr-5">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-6 ml-1">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+              <div class="col-6 ml-5 mr-1">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-6 ml-1">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+              <div class="col-6 ml-5 mr-1">
+                <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
+                <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                  To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </main>
 
     <footer class="footer">
-      <div id="footer-container" class="container">
+      <div id="footer-container" class="container bg-light">
         <div id="frow1" class="row">
           <div class="col-12 col-lg-3 footer-high">
             <a class="text-decoration-none" href=""><h5 id="contact" class="text-dark font-weight-bold">CONTACT US</h5></a>
@@ -203,9 +322,11 @@
           <div class="bg-dark col-12">
             <div id="logos" class="">
               <p id="find">Find Us On:</p>
-              <a href="www.facebook.com"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595835927/dsfds_va3blq.png" width="15px" height="15"></a>
-              <a href="www.instagram.com"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836272/4202090instagramlogosocialsocialmedia-115598_115703_lqwrkc.png" width="15px" height="15px"></a>
-              <a href="www.twitter.com"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836377/Twitter-Logo_s1qcde.png" width="15px" height="15px"></a>
+              <a href="https://www.facebook.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595835927/dsfds_va3blq.png" width="15px" height="15"></a>
+              <a href="https://www.instagram.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836272/4202090instagramlogosocialsocialmedia-115598_115703_lqwrkc.png" width="15px" height="15px"></a>
+              <a href="https://twitter.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836377/Twitter-Logo_s1qcde.png" width="15px" height="15px"></a>
+              <a href="https://youtube.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595842524/76268-play-united-button-youtube-states-logo-transparent-thumb_fm4djr.png" width="15px" height="15px"></a>
+
             </div>
           </div>
         </div>
@@ -313,6 +434,90 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
             <button type="button" class="btn btn-primary" data-dismiss="modal">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Add To Cart -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-success" role="alert">
+              <h5>Thank You! This Product Has Been Added To Your Cart!</h5> 
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Undo</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Go Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Modal Remove -->
+    <div class="modal fade" id="removecart" tabindex="-1" role="dialog" aria-labelledby="removecartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="removecartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-danger" role="alert">
+              <h5>The Items Was Succesfully Removed From Your Cart!</h5> 
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Undo</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Go Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Pay -->
+    <div class="modal fade" id="paycart" tabindex="-1" role="dialog" aria-labelledby="paycartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paycartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Your Name</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="F58997748544">  
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="exempleemail@exemple.com">  
+              </div>  
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Your Card's Number</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="F58997748544">  
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Shipping Address</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="">  
+              </div>           
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-Success" data-dismiss="modal">Pay</button>
           </div>
         </div>
       </div>

@@ -20,28 +20,28 @@
           <div class="d-none col-lg-3 d-lg-block">Welcome to SkyStore</div>
           <div class="col-6 col-lg-2 d-lg-block">
             <select class="custom-select" id="inputGroupSelect01">
-                <option selected>EN</option>
-                <option value="1">RU</option>
-                <option value="2">AM</option>
-              </select>
+              <option selected>EN</option>
+              <option value="1">RU</option>
+              <option value="2">AM</option>
+            </select>
           </div>
           <div class="col-6 col-lg-2">
             <select class="custom-select" id="inputGroupSelect01">
-                <option selected>USD</option>
-                <option value="1">RUB</option>
-                <option value="2">AMD</option>
-              </select>         
+              <option selected>USD</option>
+              <option value="1">RUB</option>
+              <option value="2">AMD</option>
+            </select>         
           </div>
           <div class="d-none col-lg-2 d-lg-block">
             <button type="button" class="btn btn-info">
-                Wishlist <span class="badge badge-light">1</span>
+              Wishlist <span class="badge badge-light">0</span>
             </button>
           </div>
         </div>
 
         <div class="row navbar bg-dark">
           <div>
-            <img src="https://res.cloudinary.com/dafgll12r/image/upload/v1595592299/1200px-Sky_Master_Brand_Logo_2020_azathx.png" width="50px">
+            <a href="index.html"><img src="https://res.cloudinary.com/dafgll12r/image/upload/v1595592299/1200px-Sky_Master_Brand_Logo_2020_azathx.png" width="50px"></a>
           </div>
           <div class="d-none d-sm-block form-inline my-2 my-lg-0">
             <form>
@@ -59,7 +59,9 @@
                 <button type="button" class="btn dropdown-item" data-toggle="modal" data-target="#signup">
                   Sign Up</button>
                 <button type="button" class="btn dropdown-item" data-toggle="modal" data-target="#">
-                  <a href="settings.html"></a>Account Settings</button>
+                  <a id="cart" href="cart.html">My Cart</a></button>
+                <button type="button" class="btn dropdown-item" data-toggle="modal" data-target="#">
+                  <a id="sett" href="settings.html">My Account</a></button>
               </div>
           </div>  
         </div>
@@ -75,9 +77,9 @@
                   Gaming
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Consoles</a>
-                  <a class="dropdown-item" href="#">Keyboards</a>
-                  <a class="dropdown-item" href="#">Mouses</a>
+                  <a class="dropdown-item" href="shop.html">Consoles</a>
+                  <a class="dropdown-item" href="shop.html">Keyboards</a>
+                  <a class="dropdown-item" href="shop.html">Mouses</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -85,9 +87,9 @@
                   Clothes
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Gucci</a>
-                  <a class="dropdown-item" href="#">Shanell</a>
-                  <a class="dropdown-item" href="#">Louis Vuitton</a>
+                  <a class="dropdown-item" href="shop.html">Gucci</a>
+                  <a class="dropdown-item" href="shop.html">Shanell</a>
+                  <a class="dropdown-item" href="shop.html">Louis Vuitton</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -95,11 +97,11 @@
                   Cars
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">BMW</a>
-                  <a class="dropdown-item" href="#">Mercedes</a>
-                  <a class="dropdown-item" href="#">Audi</a>
-                  <a class="dropdown-item" href="#">Volkswagen</a>
-                  <a class="dropdown-item" href="#">Chevrolet</a>
+                  <a class="dropdown-item" href="shop.html">BMW</a>
+                  <a class="dropdown-item" href="shop.html">Mercedes</a>
+                  <a class="dropdown-item" href="shop.html">Audi</a>
+                  <a class="dropdown-item" href="shop.html">Volkswagen</a>
+                  <a class="dropdown-item" href="shop.html">Chevrolet</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -107,11 +109,11 @@
                   Phones
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">iPhone</a>
-                  <a class="dropdown-item" href="#">Samsung</a>
-                  <a class="dropdown-item" href="#">Huawei</a>
-                  <a class="dropdown-item" href="#">Xiaomi</a>
-                  <a class="dropdown-item" href="#">HTC</a>
+                  <a class="dropdown-item" href="shop.html">iPhone</a>
+                  <a class="dropdown-item" href="shop.html">Samsung</a>
+                  <a class="dropdown-item" href="shop.html">Huawei</a>
+                  <a class="dropdown-item" href="shop.html">Xiaomi</a>
+                  <a class="dropdown-item" href="shop.html">HTC</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -119,10 +121,10 @@
                   PC Components
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Processors</a>
-                  <a class="dropdown-item" href="#">VideoCards</a>
-                  <a class="dropdown-item" href="#">Matherboards</a>
-                  <a class="dropdown-item" href="#">Monitores</a>
+                  <a class="dropdown-item" href="shop.html">Processors</a>
+                  <a class="dropdown-item" href="shop.html">VideoCards</a>
+                  <a class="dropdown-item" href="shop.html">Matherboards</a>
+                  <a class="dropdown-item" href="shop.html">Monitores</a>
                 </div>
               </div>
               <div class="dropdown col-lg-2">
@@ -130,9 +132,9 @@
                 Toys
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Logical Toys</a>
-                  <a class="dropdown-item" href="#">Plush Toys</a>
-                  <a class="dropdown-item" href="#">For Kids</a>
+                  <a class="dropdown-item" href="shop.html">Logical Toys</a>
+                  <a class="dropdown-item" href="shop.html">Plush Toys</a>
+                  <a class="dropdown-item" href="shop.html">For Kids</a>
                 </div>
               </div>
             </div>
@@ -144,7 +146,129 @@
     <main>
       <div class="container">
         <div class="row">
-          
+          <div id="dir" class="col-12 d-flex">
+            <a class="dir-text" href="">Gaming</a>
+            <p class="dir-text">/</p>
+            <a class="dir-text" href="">Mouses</a>
+            <p class="dir-text">/</p>
+            <p class="dir-text" href="">Gaming Mouses</p>
+          </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
+        </div>
+        <div id="razer" class="col-6 col-lg-12 row">
+          <div class="d-flex">
+            <img class="img-fluid" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595837009/amadej-tauses-RJXpSA2oRB4-unsplash_rbxyzd.jpg" width="200px">
+            <h5 class="d-none d-lg-block" id="prod-p">Razer DeathAdder Chroma - Multi-Color Ergonomic Gaming Mouse - 10,000 DPI Sensor - Comfortable Grip - World's Most Popular Gaming Mouse. Perfectly designed to fit snugly under your palm, the ergonomic shape of the Razer DeathAdder Chroma gives gamers the most comfortable gaming experience ever, especially during the most testing of battles
+            The Razer DeathAdder Chroma is equipped with a 10,000dpi optical sensor. It is capable of mouse movement speeds of up to 200 inches per second and 50g accelerationS
+            Whether your playing at fast or low speeds, the Deathadder Chroma will always respond onscreen with exacting accuracy and the organic fluidity only possible with an optical sensor
+            </h5>
+          </div>
+          <button id="btn-prod" type="button" class="btn btn-success" data-toggle="modal" data-target="#cart">
+          Add To Cart</button>
+          <button id="btn-prod2" class="btn btn-primary"><a id="btn-more" href="product.html">Show More</a></button>
+          <h5 id="price">$99</h5>
         </div>
       </div>
     </main>
@@ -203,9 +327,11 @@
           <div class="bg-dark col-12">
             <div id="logos" class="">
               <p id="find">Find Us On:</p>
-              <a href="www.facebook.com"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595835927/dsfds_va3blq.png" width="15px" height="15"></a>
-              <a href="www.instagram.com"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836272/4202090instagramlogosocialsocialmedia-115598_115703_lqwrkc.png" width="15px" height="15px"></a>
-              <a href="www.twitter.com"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836377/Twitter-Logo_s1qcde.png" width="15px" height="15px"></a>
+              <a href="https://www.facebook.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595835927/dsfds_va3blq.png" width="15px" height="15"></a>
+              <a href="https://www.instagram.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836272/4202090instagramlogosocialsocialmedia-115598_115703_lqwrkc.png" width="15px" height="15px"></a>
+              <a href="https://twitter.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595836377/Twitter-Logo_s1qcde.png" width="15px" height="15px"></a>
+              <a href="https://youtube.com/"><img class="logo" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595842524/76268-play-united-button-youtube-states-logo-transparent-thumb_fm4djr.png" width="15px" height="15px"></a>
+
             </div>
           </div>
         </div>
@@ -313,6 +439,89 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
             <button type="button" class="btn btn-primary" data-dismiss="modal">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Modal Add To Cart -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-success" role="alert">
+              <h5>Thank You! This Product Has Been Added To Your Cart!</h5> 
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Undo</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Go Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- Modal Remove -->
+    <div class="modal fade" id="removecart" tabindex="-1" role="dialog" aria-labelledby="removecartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="removecartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-danger" role="alert">
+              <h5>The Items Was Succesfully Removed From Your Cart!</h5> 
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Undo</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Go Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Pay -->
+    <div class="modal fade" id="paycart" tabindex="-1" role="dialog" aria-labelledby="paycartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paycartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Your Name</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="F58997748544">  
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="exempleemail@exemple.com">  
+              </div>  
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Your Card's Number</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="F58997748544">  
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Shipping Address</label>
+                <input type="card" class="form-control" id="exampleFormControlInput1" placeholder="">  
+              </div>           
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-Success" data-dismiss="modal">Pay</button>
           </div>
         </div>
       </div>
