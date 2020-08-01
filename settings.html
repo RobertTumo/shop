@@ -158,49 +158,65 @@
         </div>
         <div class="row d-flex mt-3">
           <div class="bg-light">
-            <h5 id="ord" class="">My Orders</h5>
-            <div class="d-flex mt-4">
-              <p id="ornum">Order #</p>
-              <p id="ordate">Order Date</p>
-              <p id="ortotal">Total</p>
-            </div>
-            <div class="d-flex">
-              <a class="ml-2" href="#">DS67W9S5</a>
-              <p class="ml-4">13/06/2020</p>
-              <p class="ml-4 mr-2">$6.99</p>
-            </div>
-            <div class="d-flex">
-              <a class="ml-2" href="#">DS67W9S5</a>
-              <p class="ml-4">13/06/2020</p>
-              <p class="ml-4 mr-2">$6.99</p>
-            </div>
-            <div class="d-flex">
-              <a class="ml-2" href="#">DS67W9S5</a>
-              <p class="ml-4">13/06/2020</p>
-              <p class="ml-4 mr-2">$6.99</p>
-            </div>
-            <button id="allbut" class="btn btn-info">
-              See All
-            </button>
+            <table class="table">
+              <thead>
+                <h5 class="ml-2 mt-1">My Orders</h5>
+                <tr>
+                  <th scope="col">Order #</th>
+                  <th scope="col">Order Date</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">F8B97E5</th>
+                  <td>26.07.2020</td>
+                  <td>$6,99</td>
+                </tr>
+                <tr>
+                  <th scope="row">B5E9F7J</th>
+                  <td>29.07.2020</td>
+                  <td>$9,99</td>
+                </tr>
+                <tr>
+                  <th scope="row">E84F5X1</th>
+                  <td>01.08.2020</td>
+                  <td>$26,99</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="bg-light ml-4" style="width: 261.11px;">
+            <table class="table">
+              <thead>
+                <h5 class="ml-2 mt-1">WishList</h5>
+                <tr>
+                </tr>
+              </thead>
+              <tbody>
+                <h5 id="ops" class="">Ops...</h5>
+                <h6 id="empty">Here's Empty =(</h6>
+              </tbody>
+            </table>
           </div>
           <div class="bg-light ml-3" style="width: 261.11px;">
-            <h5 id="wish">Wish List</h5>
-            <div>
-              <p class="ml-5 mt-5">Your Wish List Is Empty</p>
-            </div>
-          </div>
-          <div class="bg-light ml-3" style="width: 261.11px;">
-            <h5 id="disc">Discussions</h5>
-            <div>
-              <p id="activ">No Activity Yet</p>
-            </div>
-          </div>
-          <div class="bg-light ml-3" style="width: 261.11px;">
-            <h5 id="act">Saved Articles</h5>
-            <div>
-              <p id="art">No Saved Articles</p>
-            </div>
-          </div>
+            <table class="table">
+              <thead>
+                <h5 class="ml-2 mt-1">Discussions</h5>
+              <tbody>
+                <h5 id="activ">No Activity Yet</h5>
+              </tbody>
+            </table>
+        </div>
+        <div class="bg-light ml-3" style="width: 261.11px;">
+          <table class="table">
+            <thead>
+              <h5 class="ml-2 mt-1">Saved Articles</h5>
+            </thead>
+            <tbody>
+              <h5 id="artic">No Saved Articles</h5>
+            </tbody>
+          </table>
         </div>
         <div id="recently" class="row mt-3">
           <div class="bg-light">
@@ -212,13 +228,13 @@
               <div class="col-12 col-lg-6 ml-1 d-flex">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
               <div class="col-12 col-lg-6 ml-5 mr-5">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
             </div>
@@ -226,13 +242,13 @@
               <div class="col-6 ml-1">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
               <div class="col-6 ml-5 mr-5">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
             </div>
@@ -240,13 +256,13 @@
               <div class="col-6 ml-1">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
               <div class="col-6 ml-5 mr-1">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
             </div>
@@ -254,13 +270,13 @@
               <div class="col-6 ml-1">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
               <div class="col-6 ml-5 mr-1">
                 <img class="mb-2" src="https://res.cloudinary.com/dafgll12r/image/upload/v1595839400/ben-kolde-xdLXPic3Wfk-unsplash_u9khpr.jpg" width="130">
                 <a class="ml-2" href="">iPhone XS Max 64/128/256/512 GB</a>
-                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#cart">
+                <button type="button" class="addtocart btn btn-success" data-toggle="modal" data-target="#addtocart">
                   To Cart</button>
               </div>
             </div>
@@ -440,7 +456,7 @@
     </div>
 
     <!-- Modal Add To Cart -->
-    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+    <div class="modal fade" id="addtocart" tabindex="-1" role="dialog" aria-labelledby="addtocartLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
